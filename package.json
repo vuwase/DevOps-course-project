@@ -7,10 +7,12 @@
     "lint": "eslint .",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vuwase/DevOps-course-project.git"
-  },
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/vuwase/DevOps-course-project.git"
+},
+"build": "your-build-command",
+"start": "node server.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
